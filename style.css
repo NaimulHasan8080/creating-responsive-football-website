@@ -76,6 +76,42 @@ body{
 }
 
 
+/*----------- ---
+Team ranking style 
+----------------*/
+table{
+    background-color: #fcfcfc;;
+    margin: 145px;
+    width: 80%;
+    text-align: center;
+}
+caption{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: orange;
+}
+table, th, td{
+    border-bottom: 1px solid #e6e6e6;
+    border-collapse: collapse;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px 20px;
+}
+table thead{
+    background-color: #02a8f4;
+    height: 30px;
+
+}
+table img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
 /* --------------
 footer style
 ----------------- */
