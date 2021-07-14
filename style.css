@@ -160,8 +160,42 @@ footer style
     margin-right: 15px;
 }
 
-@media only screen and (max-width : 600px) {
-    .copa-details{
-        display: grid;
-    }
-}
+/*--------------
+ media queries
+ --------------- */
+ @media only screen and (max-width: 600px) {
+     .container{
+        width: 100%;
+     }
+     .copa-details, .player-info, .highlights, table, footer{
+         display: grid;
+         flex-direction: column;
+     }
+     .copa-america, .players, .highlights, footer{
+         grid-template-columns: repeat(1, 1fr);
+     }
+ }
+ @media only screen and (min-width: 700px)and(max-width: 991px) {
+     .container{
+        width: 100%;
+     }
+     .copa-details, .player-info, .highlights, table, footer{
+         display: grid;
+         flex-direction: column;
+     }
+     .copa-america, .players, .highlights, footer{
+         grid-template-columns: repeat(2, 1fr);
+     }
+ }
+ @media only screen and (min-width: 992px)and(max-width: 1100px) {
+     .container{
+        width: 100%;
+     }
+     .copa-details, .player-info, .highlights, table, footer{
+         display: grid;
+         flex-direction: column;
+     }
+     .copa-america, .players, .highlights, footer{
+         grid-template-columns: repeat(1, 1fr);
+     }
+ }
